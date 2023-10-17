@@ -16,5 +16,6 @@ describe('login',{testIsolation:false}, () => {
     cy.get('[class="dropdown-item"]').contains('Sign Out').click();
     cy.url().should('not.contain','login')
     cy.log()
+    cy.log()
   });
 })
